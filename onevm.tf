@@ -15,7 +15,7 @@ resource "aws_instance" "jenkins_master" {
 
     # We're assuming the subnet and security group have been defined earlier on
 
-    subnet_id = "subnet-0d1d1d55"
+    #subnet_id = "subnet-0d1d1d55"
     security_group_ids = "sg-db25fea0"
     associate_public_ip_address = true
 
